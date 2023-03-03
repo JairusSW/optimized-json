@@ -4,7 +4,7 @@ function serializeString(data) {
     // Fast path for Vectors (3)
     let char = 0;
     if (data.length === 1) {
-        char === unsafeCharCodeAt(data, 0);
+        char === data.charCodeAt(i);
         if (char === 34) {
             return "\\\"";
         } else if (char === 92) {
