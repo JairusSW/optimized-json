@@ -1,0 +1,27 @@
+{
+  "name": "Optimized JSON",
+  "date": "2023-03-03T23:43:58.288Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "Optimized Serialize String",
+      "ops": 17268501,
+      "margin": 0.97,
+      "percentSlower": 0
+    },
+    {
+      "name": "JSON Serialize String",
+      "ops": 3283844,
+      "margin": 1.6,
+      "percentSlower": 80.98
+    }
+  ],
+  "fastest": {
+    "name": "Optimized Serialize String",
+    "index": 0
+  },
+  "slowest": {
+    "name": "JSON Serialize String",
+    "index": 1
+  }
+}

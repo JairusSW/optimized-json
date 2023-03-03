@@ -1,0 +1,51 @@
+{
+  "name": "Optimized JSON",
+  "date": "2023-03-03T04:54:29.651Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "Optimized Serialize String",
+      "ops": 15096305,
+      "margin": 0.94,
+      "percentSlower": 0
+    },
+    {
+      "name": "JSON Serialize String",
+      "ops": 2832165,
+      "margin": 5.26,
+      "percentSlower": 81.24
+    },
+    {
+      "name": "Optimized Serialize Array",
+      "ops": 3585794,
+      "margin": 2.07,
+      "percentSlower": 76.25
+    },
+    {
+      "name": "JSON Serialize Array",
+      "ops": 1261145,
+      "margin": 0.98,
+      "percentSlower": 91.65
+    },
+    {
+      "name": "Optimized Serialize Vec3",
+      "ops": 1222207,
+      "margin": 7.41,
+      "percentSlower": 91.9
+    },
+    {
+      "name": "JSON Serialize Vec3",
+      "ops": 800752,
+      "margin": 3.04,
+      "percentSlower": 94.7
+    }
+  ],
+  "fastest": {
+    "name": "Optimized Serialize String",
+    "index": 0
+  },
+  "slowest": {
+    "name": "JSON Serialize Vec3",
+    "index": 5
+  }
+}
